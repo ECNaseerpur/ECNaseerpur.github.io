@@ -1,0 +1,20 @@
+.tab {
+    overflow: hidden;
+    }
+    .tab-content {
+    max-height: 0;
+    transition: all 0.5s;
+    }
+    input:checked + .tab-label .test {
+        background-color: #000;
+    }
+    input:checked + .tab-label .test svg {
+        transform: rotate(180deg);
+        stroke: #fff;
+    }
+    input:checked + .tab-label::after {
+    transform: rotate(90deg);
+    }
+    input:checked ~ .tab-content {
+    max-height: 100vh;
+    }

@@ -10,3 +10,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
+
+
+
+const tabs = document.querySelectorAll('.tab');
+  
+tabs.forEach(tab => {
+  // Get the input checkbox inside the tab
+  const checkbox = tab.querySelector('input[type="checkbox"]');
+
+  // Add event listener to the checkbox
+  checkbox.addEventListener('change', () => {
+    // Toggle the 'active' class on the tab
+    tab.classList.toggle('active');
+    
+    // Hide other tabs
+    tabs.forEach(otherTab => {
+      if (otherTab !== tab) {
+        otherTab.classList.remove('active');
+      }
+    });
+  });
+});
