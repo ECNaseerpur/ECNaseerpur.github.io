@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ecnaseerpur.github.io/sitemap.xml
