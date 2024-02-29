@@ -142,72 +142,91 @@
         </nav>
     </div>
 
+    <!-- Search bar starts here -->
+    
+<div class="max-w-md mx-4 py-4 md:mx-auto">   
+
+    <div class="relative">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+        </div>
+        <input type="text" id="book-box" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search Books" required />
+    </div>
+       
+</div>
+
+
+<!-- search bar ends here -->
+
     <!-- main starts here -->
 
-    <div class="grid gap-4 m-4 grid-cols-2 sm:grid-cols-3">
-
+    <div class="grid gap-4 m-4 grid-cols-2 sm:grid-cols-3 book-container" id="book-container">
 
         <!-- Book Upload starts here  -->
-        <div class="max-h-52 md:max-h-96 relative">
-            <img src="./Books-img/rehmatealam.jpg" class="w-full h-full object-fill" alt="">
-            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0">
-                <p class="bg-teal-400 text-slate-500 font-bold">Urdu</p>
+        <div class="max-h-52 md:max-h-96 relative" data-book-name="Seerat Khatimul Ambiya">
+            <img src="./Books-img/rehmatealam.jpg" class="w-full h-[75%] object-contain" alt="">
+            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0 book">
+                <p class="bg-teal-400 text-slate-900 sm:font-bold text-[10px] sm:text-sm">Seerat Khatimul Ambiya - Urdu</p>
                 <a href="https://iyfindia.org/wp-content/uploads/2023/09/Seerat-Khatim-Ul-Ambiya-By-Mufti-Muhammad-Shafi.pdf"
-                    class="bg-red-500 text-white font-bold py-2 px-4 hover:bg-red-800">Download</a>
+                class="bg-red-500 text-white font-bold py-2 px-4 hover:bg-red-800">Download</a>
             </div>
         </div>
+        
         <!-- Book Upload Ends here -->
         <!-- Book Upload starts here  -->
-        <div class="max-h-52 md:max-h-96 relative">
-            <img src="https://genrica.com/Images/booksImages/Tanqeehaat.jpg" class="w-full h-full object-fill" alt="">
-            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0">
-                <p class="bg-teal-400 text-slate-500 font-bold">Urdu</p>
+        <div class="max-h-52 md:max-h-96 relative" data-book-name="Tefhimat - Urdu">
+            <img src="https://genrica.com/Images/booksImages/Tanqeehaat.jpg" class="w-full h-[75%] object-contain" alt="">
+            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0 book">
+                <p class="bg-teal-400 text-slate-900 sm:font-bold text-[10px] sm:text-sm">Tefhimat - Urdu</p>
                 <a href="https://ia804608.us.archive.org/30/items/Islamic_Books_001/Tanqeehaat.pdf"
                     class="bg-red-500 text-white font-bold py-2 px-4 hover:bg-red-800">Download</a>
             </div>
         </div>
         <!-- Book Upload Ends here -->
         <!-- Book Upload starts here  -->
-        <div class="max-h-52 md:max-h-96 relative">
-            <img src="https://genrica.com/Images/booksImages/Tajdeed_o_Ahyaa_e_Deen.jpg" class="w-full h-full object-fill" alt="">
-            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0">
-                <p class="bg-teal-400 text-slate-500 font-bold">Urdu</p>
+        <div class="max-h-52 md:max-h-96 relative" data-book-name="Tajdeed o Ahyaa e Deen - Urdu">
+            <img src="https://genrica.com/Images/booksImages/Tajdeed_o_Ahyaa_e_Deen.jpg" class="w-full h-[75%] object-contain" alt="">
+            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0 book">
+                <p class="bg-teal-400 text-slate-900 sm:font-bold text-[10px] sm:text-sm">Tajdeed o Ahyaa e Deen - Urdu</p>
                 <a href="https://ia804608.us.archive.org/30/items/Islamic_Books_001/Tajdeed_o_Ahyaa_e_Deen.pdf"
                     class="bg-red-500 text-white font-bold py-2 px-4 hover:bg-red-800">Download</a>
             </div>
         </div>
         <!-- Book Upload Ends here -->
         <!-- Book Upload starts here  -->
-        <div class="max-h-52 md:max-h-96 relative">
-            <img src="https://genrica.com/Images/booksImages/Pardah.jpg" class="w-full h-full object-fill" alt="">
-            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0">
-                <p class="bg-teal-400 text-slate-500 font-bold">Urdu</p>
+        <div class="max-h-52 md:max-h-96 relative" data-book-name="Pardah - Urdu">
+            <img src="https://genrica.com/Images/booksImages/Pardah.jpg" class="w-full h-[75%] object-contain" alt="">
+            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0 book">
+                <p class="bg-teal-400 text-slate-900 sm:font-bold text-[10px] sm:text-sm">Pardah - Urdu</p>
                 <a href="https://ia804608.us.archive.org/30/items/Islamic_Books_001/Pardah.pdf"
                     class="bg-red-500 text-white font-bold py-2 px-4 hover:bg-red-800">Download</a>
             </div>
         </div>
         <!-- Book Upload Ends here -->
         <!-- Book Upload starts here  -->
-        <div class="max-h-52 md:max-h-96 relative">
-            <img src="https://genrica.com/Images/booksImages/Khilafat_o_Malookeyat.jpg" class="w-full h-full object-fill" alt="">
-            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0">
-                <p class="bg-teal-400 text-slate-500 font-bold">Urdu</p>
+        <div class="max-h-52 md:max-h-96 relative" data-book-name="Khilafat o Malookeyat - Urdu">
+            <img src="https://genrica.com/Images/booksImages/Khilafat_o_Malookeyat.jpg" class="w-full h-[75%] object-contain" alt="">
+            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0 book">
+                <p class="bg-teal-400 text-slate-900 sm:font-bold text-[10px] sm:text-sm">Khilafat o Malookeyat - Urdu</p>
                 <a href="https://ia804608.us.archive.org/30/items/Islamic_Books_001/Khilafat_o_Malookeyat.pdf"
                     class="bg-red-500 text-white font-bold py-2 px-4 hover:bg-red-800">Download</a>
             </div>
         </div>
         <!-- Book Upload Ends here -->
         <!-- Book Upload starts here  -->
-        <div class="max-h-52 md:max-h-96 relative">
-            <img src="https://islamicbookbazar.com/wp-content/uploads/2018/06/tafheemul_quran_G_U_set_big.jpg" class="w-full h-full object-fill" alt="">
-            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0">
-                <p class="bg-teal-400 text-slate-500 font-bold">Urdu</p>
+        <div class="max-h-52 md:max-h-96 relative" data-book-name="Tafhim-ul-Quran - Urdu">
+            <img src="https://islamicbookbazar.com/wp-content/uploads/2018/06/tafheemul_quran_G_U_set_big.jpg" class="w-full h-[75%] object-contain" alt="">
+            <div class="text-center flex flex-col absolute bottom-0 mx-auto left-0 right-0 book">
+                <p class="bg-teal-400 text-slate-900 sm:font-bold text-[10px] sm:text-sm">Tafhim-ul-Quran - Urdu</p>
                 <a href="https://ia800702.us.archive.org/21/items/Islamic_Books_002/Tafhim-ul-Quran.pdf"
                     class="bg-red-500 text-white font-bold py-2 px-4 hover:bg-red-800">Download</a>
             </div>
         </div>
         <!-- Book Upload Ends here -->
-        
+        <div id="no-books-message" class="hidden text-center text-slate-800">No books available.</div>
+
     </div>
 
     </div>
@@ -252,6 +271,7 @@
 
 
     <script src="./src/script.js"></script>
+    <script src="./src/search.js"></script>
 
 </body>
 
