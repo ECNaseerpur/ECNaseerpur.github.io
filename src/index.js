@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
    
     setTimeout(function () {
        welcomeMessage.style.opacity = '1';
-    }, 5000); // The message will be visible for 3 seconds
+    }, 4000); // The message will be visible for 3 seconds
    
     setTimeout(function () {
        welcomeMessage.style.display = 'none';
-    }, 7000); // The message will be removed after 5 seconds
+    }, 5000); // The message will be removed after 5 seconds
    });
    
