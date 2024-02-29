@@ -2,7 +2,7 @@ var glide01 = new Glide('.glide-01', {
     type: 'carousel',
     focusAt: 'center',
     perView: 2,
-    autoplay: 2000,
+    autoplay: 4000,
     animationDuration: 700,
     gap: 24,
     classes: {
