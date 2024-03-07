@@ -712,6 +712,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-\[50\%\] {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.mx-56 {
+  margin-left: 14rem;
+  margin-right: 14rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -930,6 +940,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-center {
