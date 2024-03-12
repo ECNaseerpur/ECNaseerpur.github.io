@@ -102,6 +102,23 @@
                     "url": "https://drive.google.com/file/d/1eFIxhwPFIAjbPHukkXsvxd_TetBdhCd7/view?usp=sharing"
                 }
             ]
+        },
+        {
+            "name": "MCA",
+            "papers": [
+                {
+                    "year": 2022,
+                    "url": "https://drive.google.com/file/d/1qxO14tXnAifznH8xdOdyRKKxPmBd-kg3/view?usp=sharing"
+                },
+                {
+                    "year": 2021,
+                    "url": "https://drive.google.com/file/d/1Kc0CVyhhf8qvFuDx9Jn7vtFpL3lcu9A0/view?usp=sharing"
+                },
+                {
+                    "year": 2022,
+                    "url": "https://drive.google.com/file/d/1pv3penRVp-YH-44fchCqWvnFsKhm7TNh/view?usp=sharing"
+                }
+            ]
         }
     ]
 }
