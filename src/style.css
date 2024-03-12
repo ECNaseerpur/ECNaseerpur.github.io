@@ -712,6 +712,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -1171,6 +1176,26 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-\[50\%\] {
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.px-\[1\/2screen\] {
+  padding-left: 1/2screen;
+  padding-right: 1/2screen;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .pb-2 {
@@ -1662,6 +1687,11 @@ video {
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .md\:text-2xl {

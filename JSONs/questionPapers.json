@@ -1,0 +1,107 @@
+{
+    "subjects": [
+        {
+            "name": "B. A. (Hons.) Arabic",
+            "papers": [
+                {
+                    "year": 2023,
+                    "url": "https://drive.google.com/file/d/1zb5BxAfXrlGQci4C13yHFwxvK3_fRVio/view?usp=sharing"
+                },
+                {
+                    "year": 2018,
+                    "url": "https://drive.google.com/file/d/1P7HzFibLY7nWVm-ypLhLZNes7oqZ-hQH/view?usp=sharing"
+                },
+                {
+                    "year": 2017,
+                    "url": "https://drive.google.com/file/d/130QFDR0hSyJiFhOE8b0XhmUyisVYL4Zs/view?usp=sharing"
+                },
+                {
+                    "year": 2016,
+                    "url": "https://drive.google.com/file/d/1BUAdbBZzY35LBpnqN4Er1uaMeWXIfeXF/view?usp=sharing"
+                }
+            ]
+        },
+        {
+            "name": "B. A. (Hons) Urdu",
+            "papers": [
+                {
+                    "year": 2017,
+                    "url": "https://drive.google.com/file/d/14hwU9xnxYAm26xKzl1HyZ8_0X73UlGei/view?usp=sharing"
+                }
+            ]
+        },
+        {
+            "name": "B. A. (Hons) Persian",
+            "papers": [
+                {
+                    "year": 2022,
+                    "url": "https://drive.google.com/file/d/1k4M-7E8olCIo5uUc-fK4lTIFgoLv7ysS/view?usp=sharing"
+                },
+                {
+                    "year": 2017,
+                    "url": "https://drive.google.com/file/d/14hwU9xnxYAm26xKzl1HyZ8_0X73UlGei/view?usp=sharing"
+                }
+            ]
+        },
+        {
+            "name": "B. A. (Hons) Islamic Studies",
+            "papers": [
+                {
+                    "year": 2023,
+                    "url": "https://drive.google.com/file/d/1tGwAxJx7Qv35HsLwOxY6-u0RN2wi9tjh/view?usp=sharing"
+                }
+            ]
+        },
+        {
+            "name": "B. A. (Hons.) English",
+            "papers": [
+                {
+                    "year": 2023,
+                    "url": "https://drive.google.com/file/d/1jZjyv57tcy3G7y3TPmwm68ZRylwpiPM1/view?usp=sharing"
+                },
+                {
+                    "year": 2017,
+                    "url": "https://drive.google.com/file/d/1PKpqkC2o-wykOnxRMJUOZhxXphQ9EAoE/view?usp=sharing"
+                },
+                {
+                    "year": 2016,
+                    "url": "https://drive.google.com/file/d/1TmqqwoDP25PDQDOVDik7mbMS4PtAAkev/view?usp=sharing"
+                }
+            ]
+        },
+        {
+            "name": "B. A. (Hons.) History",
+            "papers": [
+                {
+                    "year": 2020,
+                    "url": "https://drive.google.com/file/d/1rvuhJtivskd9zvz42i3jYjXpOaZvxR5S/view?usp=sharing"
+                },
+                {
+                    "year": 2018,
+                    "url": "https://drive.google.com/file/d/1OvkrJVYUoMSkTRibwgKLy-fgm2WGNnRJ/view?usp=sharing"
+                },
+                {
+                    "year": 2017,
+                    "url": "https://drive.google.com/file/d/1SCaEQykCDcD2423lyy2v-5UolaojUnJu/view?usp=sharing"
+                }
+            ]
+        },
+        {
+            "name": "M.Sc. Math",
+            "papers": [
+                {
+                    "year": 2023,
+                    "url": "https://drive.google.com/file/d/1hvSgIhCzu5XCnu7d-TiIQq7xzUi08fF0/view?usp=sharing"
+                },
+                {
+                    "year": 2020,
+                    "url": "https://drive.google.com/file/d/1q29yBDV99FnOOophDU2RbrpmzMq5vg-T/view?usp=sharing"
+                },
+                {
+                    "year": 2017,
+                    "url": "https://drive.google.com/file/d/1eFIxhwPFIAjbPHukkXsvxd_TetBdhCd7/view?usp=sharing"
+                }
+            ]
+        }
+    ]
+}
