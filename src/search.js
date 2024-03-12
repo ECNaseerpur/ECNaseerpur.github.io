@@ -1,24 +1,28 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const searchBox = document.getElementById('book-box');
-    const noBooksMessage = document.getElementById('no-books-message');
+// Fetch data from the JSON file
+fetch('./src/books.json')
+  .then(response => response.json())
+  .then(data => {
+    const bookContainer = document.getElementById('book-container');
+    const searchInput = document.getElementById('search-input');
 
-    searchBox.addEventListener('input', function() {
-        const query = this.value.toLowerCase();
-        const bookContainers = document.querySelectorAll('.book-container > div');
-        let found = false; // Flag to check if any book matches the search
+    // Function to filter books based on search query
+    const filterBooks = () => {
+      const searchTerm = searchInput.value.toLowerCase();
 
-        bookContainers.forEach(function(container) {
-            const bookName = container.getAttribute('data-book-name').toLowerCase();
+      // Get all book elements
+      const bookElements = document.querySelectorAll('.max-h-52');
 
-            if (bookName.includes(query)) {
-                container.style.display = 'block';
-                found = true; // At least one book matches
-            } else {
-                container.style.display = 'none';
-            }
-        });
+      // Iterate through each book element and show/hide based on search query
+      bookElements.forEach(bookElement => {
+        const bookTitle = bookElement.getAttribute('data-book-name').toLowerCase();
+        const isVisible = bookTitle.includes(searchTerm);
 
-        // Show or hide the "Book not available" message based on the search results
-        noBooksMessage.style.display = found ? 'none' : 'block';
-    });
-});
+        // Toggle visibility based on search result
+        bookElement.style.display = isVisible ? 'block' : 'none';
+      });
+    };
+
+    // Add event listener for search input
+    searchInput.addEventListener('input', filterBooks);
+  })
+  .catch(error => console.error('Error fetching data:', error));
