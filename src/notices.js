@@ -1,5 +1,5 @@
 // Fetch data from JSON file
-fetch('./src/notices.json')
+fetch('/JSONs/notices.json')
   .then(response => response.json())
   .then(data => {
     const noticesContainer = document.getElementById('notices');

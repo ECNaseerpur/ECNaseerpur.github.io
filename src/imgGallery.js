@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('./src/imgGallery.json')
+    fetch('/JSONs/imgGallery.json')
         .then(response => response.json())
         .then(data => {
             const carouselContainer = document.querySelector('.relative.h-56');
