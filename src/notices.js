@@ -1,4 +1,6 @@
-// Fetch data from JSON file
+// // Fetch data from JSON file
+
+
 fetch('/JSONs/notices.json')
   .then(response => response.json())
   .then(data => {
@@ -15,7 +17,8 @@ fetch('/JSONs/notices.json')
 
       const link = document.createElement('a');
       link.href = notice.link;
-      link.download = true;
+      // Set the download attribute to the original filename
+      link.download = notice.title; // Assuming notice.title contains the original filename
       link.className = 'text-blue-700';
       link.textContent = notice.title;
 
