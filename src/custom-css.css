@@ -18,3 +18,12 @@
     input:checked ~ .tab-content {
     max-height: 100vh;
     }
+
+
+
+    #urdu-text{
+        font-family: "Noto Nastaliq Urdu", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
